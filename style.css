@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap");
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.preview {
+  padding: 20px;
+  overflow: hidden;
+}
+
+img {
+  height: 40px;
+}
+
+.title {
+  font-family: "Big Shoulders Display";
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+}
+
+.description {
+  color: var(--transparent-white);
+  font-family: "Lexend Deca";
+}
+
+button {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-family: "Lexend Deca";
+  margin-top: 1rem;
+}
+
+.type-1 {
+  background-color: var(--bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+
+.type-1 > button {
+  color: var(--bright-orange);
+}
+
+.type-2 {
+  background-color: var(--dark-cyan);
+}
+
+.type-2 > button {
+  color: var(--dark-cyan);
+}
+
+.type-3 {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+.type-3 > button {
+  color: var(--very-dark-cyan);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  .container {
+    display: flex;
+  }
+
+  .preview {
+    padding: 50px;
+  }
+
+  button {
+    margin-top: 5rem;
+  }
+
+  button:hover {
+    border: 1px solid white;
+    color: white;
+  }
+
+  .type-1 {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .type-1 > button:hover {
+    background-color: var(--bright-orange);
+  }
+
+  .type-2 > button:hover {
+    background-color: var(--dark-cyan);
+  }
+
+  .type-3 {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .type-3 > button:hover {
+    background-color: var(--very-dark-cyan);
+  }
+}
