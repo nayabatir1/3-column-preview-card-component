@@ -31,8 +31,6 @@ Users should be able to:
 
 ### Links
 
-### Links
-
 - Solution URL: [Add solution URL here](https://github.com/nayabatir1/3-column-preview-card-component)
 - Live Site URL: [Add live site URL here](https://nayabatir1.github.io/3-column-preview-card-component/)
 
@@ -61,7 +59,7 @@ I want to continue focusing on designing mobile first design approach.
 
 ## Author
 
-- Website - [Atir Nayab](https://www.your-site.com)
+- Website - [Atir Nayab]([https://www.your-site.com](https://github.com/nayabatir1))
 - Frontend Mentor - [@nayabatir1](https://www.frontendmentor.io/profile/nayabatir1)
 - Twitter - [@nayabatir1](https://www.twitter.com/nayabatir1)
 
